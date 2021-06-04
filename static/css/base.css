@@ -40,14 +40,18 @@ a:hover{
     padding: 10px;
 }
 .navi{
-    padding:5px 20px;
+    padding:5px 50px 5px 20px;
     font-size:14px;
     font-weight:bold;font-family:Menlo,Monaco,Consolas,"Courier New",monospace, "Helvetica Neue",Helvetica,Arial,sans-serif,'幼圆'
 }
 .navi a{
-    padding: 0px 20px;
+    padding: 0px 12px;
     color: #999;
 }
 .navi a:hover{
     color: #15b374;
+}
+
+.navi .dropdown:hover>.dropdown-menu {
+    display: block;
 }
